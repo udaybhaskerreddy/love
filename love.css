@@ -1,0 +1,43 @@
+.zoomfree {
+  white-space:nowrap;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 30px;
+  
+}
+.left {
+  float:left;
+}
+.right {
+  float:right;
+}
+.center {
+  display:table;
+  margin:auto;
+}
+div {
+  margin-bottom:10px;  
+}
+div.outer {
+padding: 20px;
+background: url(http://t1.gstatic.com/images?q=tbn:ANd9GcQAo0to-q2bFpE9tTfKD2tOuneuQf6ibJTMnTPTk57eR9yhXWex);
+margin-top: 20px;
+width: 300px;
+background-position-y: 170px;
+background-position-x: 106px;
+}
+label {
+  position:absolute;
+  left:5px;  
+  color:grey; 
+  z-index:100;
+}
+label.shift{  
+  left: -9999px;
+}
+input{    
+  left:5px;  
+}
